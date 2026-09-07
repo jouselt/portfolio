@@ -4,3 +4,7 @@ bower_components/
 
 build/
 dist/
+# Local Pi runtime state
+.atl/
+# Local skill definitions (not part of the portfolio surface)
+skills/
