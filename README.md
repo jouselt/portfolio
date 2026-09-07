@@ -30,6 +30,8 @@ Do not reintroduce the old legacy positioning about "3 years frontend".
 ## Key files
 
 - `index.html` — portfolio page
+- `llms.txt` — concise LLM-readable profile (discoverable via `<link rel="llms">`)
+- `llms-full.txt` — extended LLM-readable full content
 - `assets/css/main.css` — site styles
 - `assets/docs/joe_fernandez.pdf` — current public resume PDF
 - `assets/img/joe.jpg` — profile photo
@@ -42,22 +44,6 @@ Do not reintroduce the old legacy positioning about "3 years frontend".
 - Green `#1C9C87`
 - Pink `#EF7B84`
 - Grey `#43485F`
-
-## Portfolio skill
-
-This repo ships a portfolio skill at:
-
-- `skills/professional-fullstack-dev-portfolio/SKILL.md`
-
-That skill is the portfolio-specific instruction source for rebuilds and revisions.
-It uses:
-
-- `skills/professional-fullstack-dev-portfolio/references/joe-profile.md`
-- `/home/joe/dev/career-prep/CV_Jouselt_Fernandez.md`
-- `/home/joe/ai-job-search/cv/main.tex`
-- `/home/joe/ai-job-search/cv/main_cl.tex`
-
-as the main identity and CV references.
 
 ## Local preview
 
