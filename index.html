@@ -88,7 +88,7 @@
       <a class="brand" href="#top" aria-label="Go to top"><span class="brand-mark">JF</span><span class="brand-text">Jouselt A. Fernández</span></a>
       <nav class="site-nav" aria-label="Primary">
         <ul>
-          <li><a href="#proof">Proof</a></li><li><a href="#projects">Projects</a></li><li><a href="#case-studies">Case studies</a></li>
+          <li><a href="#proof">Proof</a></li><li><a href="#projects">Projects</a></li><li><a href="#live">Live demos</a></li><li><a href="#case-studies">Case studies</a></li>
           <li><a href="#experience">Experience</a></li><li><a href="#applied-ai">Applied AI</a></li><li><a href="#about">About</a></li><li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
@@ -203,6 +203,56 @@
       </div>
     </section>
 
+    <section id="live" class="section section-alt">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Live demos</p>
+          <h2>Things you can open and use right now</h2>
+          <p>Public, running, built end to end. No screenshots and no "ask me for a demo": the links below are the products.</p>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="card-topline"><span class="tag">Live · Applied AI</span><a href="https://jouselt.github.io/ai-digital-twin-portfolio/">Open</a></div>
+            <h3>AI Digital Twin</h3>
+            <p class="project-summary">Ask about my project work and it answers from nine written records, citing the passage behind every claim. When the records do not support an answer it says so, and names what is missing, instead of guessing.</p>
+            <ul class="detail-list">
+              <li><strong>Why it is different:</strong> every factual sentence carries a citation, and every citation opens the passage it came from</li>
+              <li><strong>Refusal as a feature:</strong> a company that is not in the records is refused before any model loads, because cosine similarity alone cannot tell a covered question from an uncovered one</li>
+              <li><strong>Engineering:</strong> Angular 20 with the model running in the browser on WebGPU. The page is 75 kB; the 290 MB model only arrives if you actually ask something</li>
+              <li><strong>Measured:</strong> 14/14 evaluation cases over three runs, with the runs and their caveats committed in the repository</li>
+            </ul>
+            <p class="project-links"><a href="https://jouselt.github.io/ai-digital-twin-portfolio/">Live site</a><span>•</span><a href="https://github.com/jouselt/ai-digital-twin-portfolio">Source</a></p>
+          </article>
+
+          <article class="project-card">
+            <div class="card-topline"><span class="tag">Live · Tooling</span><a href="https://jouselt.github.io/spec-forge/">Open</a></div>
+            <h3>Spec Forge</h3>
+            <p class="project-summary">A guided interview that adapts to your answers and assembles a proposal, a design and a task list as markdown, so a project starts from reviewable artifacts instead of a chat log.</p>
+            <ul class="detail-list">
+              <li><strong>Fully client-side:</strong> Angular 20, no backend, no API key, no account</li>
+              <li><strong>Scope, honestly:</strong> the interview is live today; document generation is still in progress</li>
+              <li><strong>Why it exists:</strong> it is the tool I use to keep AI output attached to real engineering artifacts</li>
+            </ul>
+            <p class="project-links"><a href="https://jouselt.github.io/spec-forge/">Live site</a><span>•</span><a href="https://github.com/jouselt/spec-forge">Source</a></p>
+          </article>
+
+          <article class="project-card">
+            <div class="card-topline"><span class="tag">Live · 2025</span><a href="https://jouselt.github.io/Pro-Schedule-Manager/">Open</a></div>
+            <h3>Pro Schedule Manager</h3>
+            <p class="project-summary">A shift scheduling application built in vanilla JavaScript with Material Design components: rules, persistence and exports, with no framework underneath.</p>
+            <ul class="detail-list">
+              <li><strong>Constraint:</strong> vanilla JS on purpose, to keep the whole thing readable and dependency-light</li>
+              <li><strong>What it shows:</strong> state management and UI structure without a framework doing the work</li>
+            </ul>
+            <p class="project-links"><a href="https://jouselt.github.io/Pro-Schedule-Manager/">Live site</a><span>•</span><a href="https://github.com/jouselt/Pro-Schedule-Manager">Source</a></p>
+          </article>
+        </div>
+
+        <p class="project-links"><strong>Earlier work, still online:</strong><a href="https://jouselt.github.io/pokedex/">Pokedex (2022, React)</a><span>•</span><a href="https://jouselt.github.io/meser/">Meser (2019)</a><span>•</span><a href="https://jouselt.github.io/taiaoSite/">Taiao company site (2016)</a></p>
+      </div>
+    </section>
+
     <section id="case-studies" class="section section-alt">
       <div class="container">
         <div class="section-heading"><p class="eyebrow">Case studies</p><h2>How I approach constraints, architecture, and delivery</h2></div>
@@ -283,6 +333,7 @@
             </ul>
           </div>
         </div>
+        <p class="project-links"><a class="button button-secondary" href="https://jouselt.github.io/ai-digital-twin-portfolio/">Ask the twin about my work</a></p>
       </div>
     </section>
 
